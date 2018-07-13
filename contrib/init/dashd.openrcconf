@@ -1,25 +1,25 @@
-# /etc/conf.d/dashd: config file for /etc/init.d/dashd
+# /etc/conf.d/wikid: config file for /etc/init.d/wikid
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/dashcore/dash.conf"
+#BITCOIND_CONFIGFILE="/etc/wikicore/wiki.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/dashd"
+#BITCOIND_PIDDIR="/var/run/wikid"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/dashd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/wikid.pid"
 
-# Where to write dashd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/dashd"
+# Where to write wikid data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/wikid"
 
-# User and group to own dashd process
-#BITCOIND_USER="dashcore"
-#BITCOIND_GROUP="dashcore"
+# User and group to own wikid process
+#BITCOIND_USER="wikicore"
+#BITCOIND_GROUP="wikicore"
 
-# Path to dashd executable
-#BITCOIND_BIN="/usr/bin/dashd"
+# Path to wikid executable
+#BITCOIND_BIN="/usr/bin/wikid"
 
-# Nice value to run dashd under
+# Nice value to run wikid under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

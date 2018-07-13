@@ -1,2 +1,2 @@
-usr/local/bin/dashd usr/bin
-usr/local/bin/dash-cli usr/bin
+usr/local/bin/wikid usr/bin
+usr/local/bin/wiki-cli usr/bin

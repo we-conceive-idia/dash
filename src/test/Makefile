@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. dash_test
+	$(MAKE) -C .. wiki_test
 clean:
-	$(MAKE) -C .. dash_test_clean
+	$(MAKE) -C .. wiki_test_clean
 check:
-	$(MAKE) -C .. dash_test_check
+	$(MAKE) -C .. wiki_test_check

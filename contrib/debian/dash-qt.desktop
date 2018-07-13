@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Dash
-Comment=Dash P2P Cryptocurrency
-Comment[fr]=Dash, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Dash, eşten eşe kriptografik sanal para birimi
-Exec=dash-qt %u
+Name=Wiki
+Comment=Wiki P2P Cryptocurrency
+Comment[fr]=Wiki, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Wiki, eşten eşe kriptografik sanal para birimi
+Exec=wiki-qt %u
 Terminal=false
 Type=Application
-Icon=dash128
-MimeType=x-scheme-handler/dash;
+Icon=wiki128
+MimeType=x-scheme-handler/wiki;
 Categories=Office;Finance;

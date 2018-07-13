@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  dashd The Dash Core server.
+#  wikid The Wiki Core server.
 #
 #
 # chkconfig: 345 80 20
-# description: dashd
-# processname: dashd
+# description: wikid
+# processname: wikid
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/dashd, see below
-if [ -f /etc/sysconfig/dashd ]; then
-        . /etc/sysconfig/dashd
+# you can override defaults in /etc/sysconfig/wikid, see below
+if [ -f /etc/sysconfig/wikid ]; then
+        . /etc/sysconfig/wikid
 fi
 
 RETVAL=0
 
-prog=dashd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/dashd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/dashd}
+prog=wikid
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/wikid
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/wikid}
 
-# dashd defaults to /usr/bin/dashd, override with BITCOIND_BIN
-dashd=${BITCOIND_BIN-/usr/bin/dashd}
+# wikid defaults to /usr/bin/wikid, override with BITCOIND_BIN
+wikid=${BITCOIND_BIN-/usr/bin/wikid}
 
-# dashd opts default to -disablewallet, override with BITCOIND_OPTS
-dashd_opts=${BITCOIND_OPTS--disablewallet}
+# wikid opts default to -disablewallet, override with BITCOIND_OPTS
+wikid_opts=${BITCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $dashd $dashd_opts
+    daemon $DAEMONOPTS $wikid $wikid_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

@@ -1,8 +1,8 @@
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2017 The Wiki Core developers
 
 #include "cachemultimap.h"
 
-#include "test/test_dash.h"
+#include "test/test_wiki.h"
 
 #include <algorithm>
 #include <iostream>
