@@ -185,7 +185,7 @@ QT_TRANSLATE_NOOP("wiki-core", ""
 "Set the number of threads for coin generation if enabled (-1 = all cores, "
 "default: %d)"),
 QT_TRANSLATE_NOOP("wiki-core", ""
-"Show N confirmations for a successfully locked transaction (0-9999, default: "
+"Show N confirmations for a successfully locked transaction (0-7111, default: "
 "%u)"),
 QT_TRANSLATE_NOOP("wiki-core", ""
 "Specify full path to directory for automatic wallet backups (must exist)"),
